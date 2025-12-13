@@ -1,161 +1,176 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accueil - Tonny Lauren's MVOUMBI</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tonny Lauren's MVOUMBI – Data Analyst</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-  <!-- === HEADER / INTRO === -->
-  <section class="header-apropos index-header">
-  <img src="images/ba.jpg" alt="Bannière Data" class="banniere-img">
+
+<!-- ================= HEADER ================= -->
+<header class="header-apropos">
+  <img src="images/ba.jpg" alt="Bannière Data" class="banniere-img"/>
+
   <div class="banniere-contenu">
     <h1>Tonny Lauren's MVOUMBI</h1>
-    <p>Automatisation – Analyse – Décision – Visualisation</p>
+    <p>Data Analyst · Automatisation · Visualisation · Décision</p>
   </div>
+
   <nav class="navbar-apropos-bas">
     <ul>
-      <li><a href="index.html" class="active">Accueil / Home</a></li>
-      <li><a href="Projets_global.html">Projets / Projects</a></li>
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="Projets_global.html">Projets</a></li>
       <li><a href="automatisations.html">Apps & Automatisations</a></li>
-      <li><a href="a-propos.html">À propos / About</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
-</section>
+</header>
 
-  <!-- === CONTENU === -->
-  <main class="hero">
-    <h2>Des données… aux solutions concrètes</h2>
-    <p>J’analyse, structure et automatise les données pour aider les équipes à gagner en efficacité et à prendre de meilleures décisions.</p>
-    <div class="btn-cv">
-      <a href="chemin/vers/ton_cv.pdf" target="_blank" class="btn-cv">📄 Télécharger mon CV</a>
+<!-- ================= HERO ================= -->
+<main class="hero">
+  <h2>Transformer les données en décisions mesurables</h2>
+  <p>
+    Data Analyst orienté automatisation & performance.
+    Je conçois des dashboards, pipelines et applications data
+    pour réduire le travail manuel et améliorer la prise de décision.
+  </p>
+
+  <div class="stats">
+    <div class="stat-card">
+      <strong data-target="60">0</strong>
+      <span>% de temps gagné</span>
     </div>
+    <div class="stat-card">
+      <strong data-target="3">0</strong>
+      <span>Apps Data</span>
+    </div>
+    <div class="stat-card">
+      <strong data-target="5">0</strong>
+      <span>Outils maîtrisés</span>
+    </div>
+  </div>
 
+  <div class="btn-cv">
+    <a href="cv.pdf" target="_blank">📄 Télécharger mon CV</a>
+  </div>
+</main>
 
-<!-- === SECTION EXPÉRIENCES === -->
+<!-- ================= EXPERIENCES ================= -->
 <section class="experience-section">
   <h2 class="section-title">Expériences professionnelles</h2>
 
   <div class="experience-grid">
 
-    <!-- ACCOR -->
     <div class="experience-card">
-      <img src="images/logo_accor.png" alt="Accor">
+      <img src="images/logo_accor.png" alt="Accor"/>
       <h3>Data Quality Analyst – Accor</h3>
-      <p><strong>Septembre 2025 – Février 2026</strong></p>
+      <p class="date">Sept. 2025 – Fév. 2026</p>
+      <p class="xp-summary">Fiabilisation et automatisation des données comptables</p>
+      <div class="tech-tags">
+        <span>Python</span><span>Power BI</span><span>Streamlit</span><span>Excel</span>
+      </div>
       <ul>
-        <li>Contrôle de qualité des données comptables (référentiels, codifications, doublons...)</li>
-        <li>Vérification, nettoyage et fiabilisation des données avec Power BI, Excel et Python</li>
-        <li>Automatisation de contrôles, de tâches récurrentes et envoi des rapports de suivi mensuels</li>
-        <li>Création de <strong>2 applications internes</strong> avec <strong>Python & Streamlit</strong> :</li>
-        <ul>
-          <li>Contrôle des identifiants utilisateurs vs périmètre autorisé</li>
-          <li>Vérification des responsabilités métiers par profil</li>
-        </ul>
-        <li>Collaboration avec les équipes métiers pour identifier les anomalies et proposer des améliorations</li>
+        <li>Contrôle qualité des référentiels</li>
+        <li>Automatisation des reportings</li>
+        <li>Création d’applications internes</li>
+        <li>Collaboration métiers</li>
       </ul>
     </div>
 
-    <!-- SENOVA -->
     <div class="experience-card">
-      <img src="images/Logo-senova (1).jpg" alt="Senova">
-      <h3>Data Analyst - Senova Paris</h3>
-      <p><strong>Février 2024 - Mai 2024</strong></p>
+      <img src="images/Logo-senova.jpg" alt="Senova"/>
+      <h3>Data Analyst – Senova Paris</h3>
+      <p class="date">Fév. 2024 – Mai 2024</p>
+      <p class="xp-summary">Pilotage de la performance commerciale</p>
+      <div class="tech-tags">
+        <span>Power BI</span><span>DAX</span><span>Python</span><span>PostgreSQL</span>
+      </div>
       <ul>
-        <li>Conception de dashboards Power BI dynamiques pour le pilotage des performances commerciales (suivi des ventes, taux de conversion, cycle client)</li>
-        <li>Automatisation des reportings hebdomadaires et mensuels à l’aide de Power Query, DAX et Python, réduisant les tâches manuelles de 60 %</li>
-        <li>Structuration d’une base PostgreSQL pour centraliser les données de 3 pôles (ventes, RH, finance), facilitant les jointures et la gouvernance des données</li>
-        <li>Création de KPIs sur-mesure pour aider les managers à anticiper les périodes de sous-performance et identifier les leviers de croissance</li>
-        <li>Intégration de segments clients dans Power BI pour des analyses de rentabilité par profil</li>
+        <li>Dashboards de suivi des ventes</li>
+        <li>–60% de tâches manuelles</li>
+        <li>Structuration base de données</li>
+        <li>KPIs décisionnels</li>
       </ul>
     </div>
 
-    <!-- INONI TECH -->
     <div class="experience-card">
-      <img src="images/inonitech.jpg" alt="Inoni Tech">
-      <h3>Développeur IA - Inoni Tech</h3>
-      <p><strong>Novembre 2022 - Juillet 2023</strong></p>
+      <img src="images/inonitech.jpg" alt="Inoni Tech"/>
+      <h3>Développeur IA – Inoni Tech</h3>
+      <p class="date">Nov. 2022 – Juil. 2023</p>
+      <p class="xp-summary">Solution IA de classification d’images</p>
+      <div class="tech-tags">
+        <span>Python</span><span>TensorFlow</span><span>Keras</span><span>Streamlit</span>
+      </div>
       <ul>
-        <li>Entraînement d’un modèle CNN (réseaux de neurones convolutifs) avec TensorFlow et Keras, atteignant une précision de 92 % sur les images testées</li>
-        <li>Prétraitement des données : réduction du bruit, normalisation, augmentation des images (rotation, zoom...)</li>
-        <li>Conception d’une application Streamlit pour permettre à des professionnels de santé d’importer des images, visualiser les résultats et obtenir une prédiction claire</li>
-        <li>Visualisation de la performance du modèle : matrice de confusion, ROC curve, indicateurs F1-score, précision et rappel</li>
-      </ul>
-    </div>
-
-    <!-- SEVEN ACADEMY -->
-    <div class="experience-card">
-      <img src="images/SevenAcademy-logo.png" alt="Seven Academy">
-      <h3>Formation Développement Web – Seven Academy</h3>
-      <p><strong>Juillet 2021 – Avril 2022</strong></p>
-      <ul>
-        <li>Apprentissage complet du développement front-end et back-end (HTML, CSS, JavaScript, PHP)</li>
-        <li>Création d’interfaces web interactives et de dashboards esthétiques pour la visualisation de données</li>
-        <li>Approfondissement des bases en bases de données MySQL et intégration de scripts automatisés</li>
-        <li>Projet final : développement d’un mini-dashboard d’analyse en temps réel des ventes</li>
+        <li>CNN – 92% de précision</li>
+        <li>Prétraitement des données</li>
+        <li>App Streamlit utilisateur</li>
+        <li>Visualisation des performances</li>
       </ul>
     </div>
 
   </div>
 </section>
 
-  </main>
-
-  <script>
-// Animation simple du texte sans ralentir la page
-window.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".fade-in, .slide-up, .fade-in-delay").forEach((el, i) => {
-    setTimeout(() => {
-      el.classList.add("show");
-    }, i * 300);
-  });
-});
-</script>
+<!-- ================= JS ================= -->
 <script>
-// Apparition des cartes au défilement
+/* Scroll apparition */
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
+    if (entry.isIntersecting) entry.target.classList.add("visible");
   });
 }, { threshold: 0.15 });
 
-document.querySelectorAll('.experience-card').forEach(card => {
-  observer.observe(card);
+document.querySelectorAll(".experience-card").forEach(c => observer.observe(c));
+
+/* KPI counter */
+document.querySelectorAll(".stats strong").forEach(counter => {
+  const target = +counter.dataset.target;
+  let val = 0;
+  const step = target / 40;
+  const update = () => {
+    val += step;
+    if (val < target) {
+      counter.textContent = Math.ceil(val);
+      requestAnimationFrame(update);
+    } else counter.textContent = target;
+  };
+  update();
 });
+
+/* Hover premium cards + stats */
+if (window.matchMedia("(hover: hover)").matches) {
+
+  [...document.querySelectorAll(".experience-card, .stat-card")].forEach(card => {
+    const glow = document.createElement("div");
+    glow.className = "card-glow";
+    card.appendChild(glow);
+
+    card.addEventListener("mousemove", e => {
+      const r = card.getBoundingClientRect();
+      const x = e.clientX - r.left;
+      const y = e.clientY - r.top;
+
+      const rx = ((y - r.height / 2) / r.height) * 8;
+      const ry = ((x - r.width / 2) / r.width) * -8;
+
+      card.style.transform =
+        `perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-8px)`;
+
+      glow.style.background =
+        `radial-gradient(circle at ${x}px ${y}px, rgba(241,183,42,.35), transparent 60%)`;
+    });
+
+    card.addEventListener("mouseleave", () => {
+      card.style.transform = "";
+      glow.style.background = "transparent";
+    });
+  });
+}
 </script>
-<script>
-// Apparition douce du nom et du texte du header
-window.addEventListener("DOMContentLoaded", () => {
-  const name = document.querySelector(".banniere-contenu h1");
-  const subtitle = document.querySelector(".banniere-contenu p");
-
-  // D'abord, on cache tout
-  name.style.opacity = "0";
-  name.style.transform = "translateY(40px)";
-  subtitle.style.opacity = "0";
-  subtitle.style.transform = "translateY(40px)";
-
-  // Le nom apparaît doucement
-  setTimeout(() => {
-    name.style.transition = "opacity 1.8s ease, transform 1.8s ease";
-    name.style.opacity = "1";
-    name.style.transform = "translateY(0)";
-  }, 300);
-
-  // Puis le sous-titre juste après
-  setTimeout(() => {
-    subtitle.style.transition = "opacity 1.6s ease, transform 1.6s ease";
-    subtitle.style.opacity = "1";
-    subtitle.style.transform = "translateY(0)";
-  }, 1500);
-});
-</script>
-
 
 </body>
 </html>
