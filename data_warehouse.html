@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Warehouse - SQL Server</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- === HEADER UNIFIÉ === -->
+<section class="header-apropos index-header">
+  <img src="images/ba.jpg" class="banniere-img" alt="Bannière Data">
+  <div class="banniere-contenu">
+    <h1>Data Warehouse - SQL Server</h1>
+    <p>Développement d’un Data Warehouse avec pipelines ETL, modélisation en étoile et reporting SQL.</p>
+  </div>
+
+  <nav class="navbar-apropos-bas">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="Projets_global.html">Projets</a></li>
+      <li><a href="automatisations.html">Apps & Automatisations</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</section>
+
+<!-- === CONTENU PRINCIPAL === -->
+<main class="project-detail-section">
+
+  <div class="project-detail-card">
+
+    <h2 class="project-title">Data Warehouse - SQL Server</h2>
+
+    <img src="Data_architecture.png" alt="Data warehouse" class="project-detail-img">
+
+    <div class="project-description">
+
+      <p>
+        <strong class="gold">📖 Aperçu du projet :</strong><br><br>
+        <strong>Ce projet comprend :</strong> <br>
+
+        <ol>
+          <li><strong>Architecture des données :</strong> Conception d’un entrepôt de données moderne en utilisant
+             l’architecture Medallion avec les couches Bronze, Silver et Gold.</li>
+          <br>
+
+          <li><Strong>Pipelines ETL :</Strong> Extraction, transformation et chargement des données 
+            depuis les systèmes sources vers l’entrepôt.</li>
+          <br>
+
+          <li><strong>Modélisation des données :</strong> Développement de tables de faits et 
+            de dimensions optimisées pour les requêtes analytiques.</li>
+          <br>
+
+          <li><strong>Analytique & Reporting :</strong> Création de rapports et tableaux de bord basés 
+            sur SQL pour fournir des insights exploitables.</li>
+      
+        </ol>
+        <br>
+      <p>
+        <strong class="gold">🚀 Architecture DATA :</strong><br><br>
+        L’architecture des données de ce projet suit le modèle Medallion avec les couches Bronze, Silver et Gold :
+        
+          <ol>
+            <li><strong>Couche Bronze : </strong> Stocke les données brutes telles qu’elles proviennent des systèmes sources. 
+              Les données sont ingérées à partir de fichiers CSV dans une base de données SQL Server.</li>
+
+            <br>
+
+              <li><strong>Couche Sliver : </strong> Cette couche inclut les processus de nettoyage, de standardisation et 
+              de normalisation des données afin de les préparer pour l’analyse.</li>
+
+            <br>
+
+            <li><strong>Couche Gold : </strong> Contient les données prêtes pour l’entreprise, modélisées sous forme de schéma en étoile, 
+              nécessaires pour les rapports et l’analytique.</li>
+          </ol>
+        
+      </p>
+
+      <p>
+        <strong class="gold">🚀 Prérequis du projet :</strong><br><br>
+       <strong>Objectif :</strong> <br><br>
+        Développer un entrepôt de données en utilisant SQL Server afin de consolider les données de ventes, 
+        permettant la création de rapports analytiques et la prise de décisions éclairées. <br><br>
+
+        <ol>
+          <li><strong>Spécifications Sources de données :</strong> Importer les données à partir de deux 
+            systèmes sources (ERP et CRM) fournis sous forme de fichiers CSV.</li>
+          <br>
+
+          <li><strong>Qualité des données :</strong> Nettoyer et résoudre les problèmes de qualité des données avant l’analyse.</li>
+          <br>
+
+          <li><strong>Intégration :</strong> Combiner les deux sources dans un modèle de données unique 
+            et convivial, conçu pour les requêtes analytiques.</li>
+          <br>
+
+          <li><strong>Périmètre :</strong> Se concentrer uniquement sur le 
+            jeu de données le plus récent ; l’historisation des données n’est pas requise.</li>
+          <br>
+
+          <li><strong>Documentation : </strong>Fournir une documentation claire du modèle de données pour soutenir à la fois 
+            les parties prenantes métier et les équipes analytiques.</li>
+        </ol>
+
+      </p>
+
+      <p>
+        <strong class="gold">🛠️ Outils & Compétences :</strong><br>
+        SQL Server, Draw.io, Github, Notion, Excel
+      </p>
+
+      <a href="https://github.com/200025-arch/SQL-Data-Warehouse-Project"
+         target="_blank"
+         class="github-button">
+        🔗 Plus de détails sur le projet - Github
+      </a>
+    </div>
+
+  </div>
+
+  <div class="back-link">
+    <a href="Projets_global.html">⬅️ Retour aux projets</a>
+  </div>
+
+</main>
+
+</body>
+</html>
