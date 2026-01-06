@@ -982,3 +982,29 @@ body{
     font-size:0.9rem;
   }
 }
+
+/* ================= MICRO AMELIORATIONS DATA ================= */
+
+/* Renforce lisibilité KPI */
+.stat-card strong{
+  letter-spacing:1px;
+}
+
+/* Texte hero plus lisible */
+.hero p{
+  line-height:1.7;
+  font-size:0.95rem;
+  color:var(--text);
+}
+
+/* Effet smooth sur stats */
+.stat-card{
+  transition:transform .5s ease, box-shadow .5s ease;
+}
+
+/* XP résumé plus clair */
+.xp-summary{
+  font-size:.9rem;
+  color:var(--muted);
+  margin-bottom:12px;
+}
