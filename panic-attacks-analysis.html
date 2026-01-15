@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Panic Attack Analytisis – Snowflake & Power BI</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<!-- === HEADER UNIFIÉ === -->
+<section class="header-apropos index-header">
+  <img src="Images/panic_oth.png" class="banniere-img" alt="Bannière Data">
+  
+  <div class="banniere-contenu">
+    <h2>Panic Attack Analysis – Snowflake & Power BI</h2>
+    <p>Analyse des crises de panique avec Snowflake et Power BI</p>
+  </div>
+
+  <nav class="navbar-apropos-bas">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="Projets_global.html">Projets</a></li>
+      <!-- <li><a href="automatisations.html">Apps & Automatisations</a></li> -->
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</section>
+
+<!-- === CONTENU PRINCIPAL === -->
+<main class="project-detail-section">
+
+  <div class="project-detail-card">
+
+    <h2 class="project-title">Panic Attack Analysis – Snowflake & Power BI</h2>
+
+
+     <video controls autoplay muted loop class="dashboard-video">
+        <source src="Images/video_pa_analysis.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture vidéo.
+      </video>
+
+  
+
+    <div class="project-description">
+      <br>
+      <!-- OBJECTIF -->
+      <p>
+        <strong class="gold">🎯 Objectif :</strong><br>
+        Les crises de panique sont souvent liées à des facteurs comme le sommeil, 
+        a caféine, l’alcool, l’âge ou des troubles psychologiques.
+        L’objectif de ce projet est de comprendre :
+        <ul>
+          <li><Strong>Quels facteurs sont associés à une fréquence plus élevée de crises</Strong></li>
+          <li><Strong>Quels profils de patients sont les plus exposés</Strong></li>
+          <li><Strong>Quels symptômes sont les plus fréquents</Strong></li>
+        </ul>
+      </p>
+
+      <!-- Pipeline -->
+
+      <p>
+        <strong class="gold">🔄 Pipeline :</strong><br>
+        Les données brutes (fichier CSV) ont été chargées dans <strong>Snowflake</strong>, qui a servi d’entrepôt de données central.
+        Après ingestion, les données ont été explorées et préparées via des requêtes <strong>SQL</strong>.
+
+        <br><br>
+
+        <strong>Snowflake</strong> a ensuite été connecté à <strong>Power BI</strong> en mode import afin de créer un modèle analytique.
+        Les transformations finales ont été réalisées dans <strong>Power Query</strong>, puis des mesures <strong>DAX</strong> ont été créées pour 
+        alimenter les <strong>visualisations</strong>.
+      </p>
+
+      <!-- PARTICULARITÉ -->
+      <p>
+        <strong class="gold">⭐ Particularités du projet :</strong><br>
+        Ce projet combine des compétences de data engineering et de data analytics :
+        <br>
+        <ul>
+          <li>Ingestion des données dans Snowflake</li>
+          <li>Analyse exploratoire (SQL)</li>
+          <li>Connexion avec Power BI</li>
+          <li>Transformation des données dans Power Query</li>
+          <li>Création de mesures DAX</li>
+          <li>Filtres dynamiques (genre, causes, historique médical, etc.)</li>
+        </ul>
+      </p>
+      
+      <!-- Ce que montre l'analyse -->
+
+      <p>
+        <strong class="gold">📊 Ce que montre l’analyse :</strong><br>
+        L’analyse met en évidence plusieurs tendances :
+        <br>
+        <ul>
+          <li>Les patients dormant peu présentent plus souvent des crises de panique</li>
+          <li>La consommation de caféine est associée à des scores de panique plus élevés</li>
+          <li>Les patients ayant des troubles comme la phobie, l’anxiété ou le PTSD ont des crises plus fréquentes</li>
+          <li>Les adolescents ont, en moyenne, un score de panique plus élevé que les adultes</li>
+          <li>Certains symptômes comme l’essoufflement, la transpiration et les douleurs thoraciques sont 
+            particulièrement répandus chez les patients les plus affectés</li>
+        </ul>
+      </p>
+
+      <!-- OUTILS -->
+      <p>
+        <strong class="gold">🛠️ Outils & Méthodes :</strong><br><br>
+        <Strong>Outils :</Strong>
+        <br>
+        <ul>
+          <li>Snowflake : stockage, ingestion, EDA (SQL)</li>
+          <li>Power Query : nettoyage et transformation</li>
+          <li>DAX : mesures et indicateurs</li>
+          <li>Power BI : Visualisations</li>
+        </ul>
+
+        <br>
+
+        <Strong>Méthodes :</Strong>
+        <ul>
+          <li>Analyse exploratoire des données (EDA)</li>
+          <li>Segmentation par âge, genre, causes, symptomes et antécédents</li>
+          <li>Comparaison de moyennes</li>
+          <li>Visualisation interactive orientée décisionnel</li>
+        </ul>
+
+        <br>
+
+      </p>
+
+      <a href="https://github.com/200025-arch/Panic-Attack-Analyse"
+         target="_blank"
+         class="github-button">
+        🔗 Plus de détails sur le projet - Github
+      </a>
+      <!-- CONFIDENTIALITÉ -->
+
+
+      <!-- GALERIE IMAGES -->
+      <!-- <h3 class="gold" style="margin-top: 30px;">📸 Aperçu du Dashboard</h3>
+      <div class="gallery-mails">
+        <div class="shot"><img src="images/Dashboards_Clusters.png"></div>
+        <div class="shot"><img src="images/Clusters2.png"></div>
+      </div> -->
+
+    </div>
+  </div>
+
+  <div class="back-link">
+    <a href="Projets_global.html">⬅️ Retour aux projets</a>
+  </div>
+
+</main>
+
+</body>
+</html>
